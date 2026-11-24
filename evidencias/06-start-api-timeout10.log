@@ -1,0 +1,24 @@
+No current session found, using default AWS::AccountId
+Initializing the lambda functions containers.
+Local image is up-to-date
+Using local image: public.ecr.aws/lambda/python:3.12-rapid-x86_64.
+
+Mounting C:\Users\luisr\source\repos\mica\serverless-guia-transporte\.aws-sam\build\HelloWorldFunction as /var/task:ro,delegated, inside runtime container
+SAM_CONTAINER_ID: d1d0c71f891bf84cb903b4ec84f81d3fb82dd994602d8e178aef7fd0cad60da6
+Containers created. Waiting for readiness...
+Waiting for 1 containers to be running...
+All 1 containers running after 0.0 seconds
+All containers are ready.
+Mounting HelloWorldFunction at http://127.0.0.1:3000/guias [POST]
+You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. If you used sam build before running local commands, you will need to re-run sam build for the changes to be picked up. You only need to restart SAM CLI if you update your AWS SAM template
+2026-11-24 15:39:34 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2026-11-24 15:39:34 [33mPress CTRL+C to quit[0m
+Invoking app.lambda_handler (python3.12)
+Lambda function 'HelloWorldFunction' is already running
+START RequestId: eaf7c54a-0a57-44a1-bf8d-286757a21973 Version: $LATEST
+END RequestId: eaf7c54a-0a57-44a1-bf8d-286757a21973
+REPORT RequestId: eaf7c54a-0a57-44a1-bf8d-286757a21973	Init Duration: 0.07 ms	Duration: 5095.27 ms	Billed Duration: 5096 ms	Memory Size: 128 MB	Max Memory Used: 128 MB	
+
+No Content-Type given. Defaulting to 'application/json'.
+2026-11-24 15:39:42 127.0.0.1 - - [24/Nov/2026 15:39:42] "[35m[1mPOST /guias HTTP/1.1[0m" 201 -

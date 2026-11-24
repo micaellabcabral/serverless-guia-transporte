@@ -1,0 +1,40 @@
+No current session found, using default AWS::AccountId
+Initializing the lambda functions containers.
+Local image is up-to-date
+Using local image: public.ecr.aws/lambda/python:3.12-rapid-x86_64.
+
+Mounting C:\Users\luisr\source\repos\mica\serverless-guia-transporte\.aws-sam\build\HelloWorldFunction as /var/task:ro,delegated, inside runtime container
+SAM_CONTAINER_ID: e19a3fa8493cb22e779d64fd82d3d4d5b40ce45119a385fbb6750d706b1042b1
+Containers created. Waiting for readiness...
+Waiting for 1 containers to be running...
+All 1 containers running after 0.0 seconds
+All containers are ready.
+Mounting HelloWorldFunction at http://127.0.0.1:3000/guias [POST]
+You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. If you used sam build before running local commands, you will need to re-run sam build for the changes to be picked up. You only need to restart SAM CLI if you update your AWS SAM template
+2026-11-24 15:38:56 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2026-11-24 15:38:56 [33mPress CTRL+C to quit[0m
+Invoking app.lambda_handler (python3.12)
+Lambda function 'HelloWorldFunction' is already running
+START RequestId: 4a056a9b-faf1-4ae6-a679-e89012a739df Version: $LATEST
+END RequestId: 4a056a9b-faf1-4ae6-a679-e89012a739df
+REPORT RequestId: 4a056a9b-faf1-4ae6-a679-e89012a739df	Init Duration: 0.07 ms	Duration: 110.08 ms	Billed Duration: 111 ms	Memory Size: 128 MB	Max Memory Used: 128 MB	
+
+No Content-Type given. Defaulting to 'application/json'.
+2026-11-24 15:38:59 127.0.0.1 - - [24/Nov/2026 15:38:59] "[35m[1mPOST /guias HTTP/1.1[0m" 201 -
+Invoking app.lambda_handler (python3.12)
+Lambda function 'HelloWorldFunction' is already running
+START RequestId: d6edb0ae-c686-4a4d-bdc1-2225233d559b Version: $LATEST
+END RequestId: d6edb0ae-c686-4a4d-bdc1-2225233d559b
+REPORT RequestId: d6edb0ae-c686-4a4d-bdc1-2225233d559b	Duration: 3.64 ms	Billed Duration: 4 ms	Memory Size: 128 MB	Max Memory Used: 128 MB	
+
+No Content-Type given. Defaulting to 'application/json'.
+2026-11-24 15:39:01 127.0.0.1 - - [24/Nov/2026 15:39:01] "[35m[1mPOST /guias HTTP/1.1[0m" 201 -
+Invoking app.lambda_handler (python3.12)
+Lambda function 'HelloWorldFunction' is already running
+START RequestId: 61ec2617-8a92-40cf-b2f8-6f79c84eeff2 Version: $LATEST
+END RequestId: 61ec2617-8a92-40cf-b2f8-6f79c84eeff2
+REPORT RequestId: 61ec2617-8a92-40cf-b2f8-6f79c84eeff2	Duration: 3.26 ms	Billed Duration: 4 ms	Memory Size: 128 MB	Max Memory Used: 128 MB	
+
+No Content-Type given. Defaulting to 'application/json'.
+2026-11-24 15:39:02 127.0.0.1 - - [24/Nov/2026 15:39:02] "[35m[1mPOST /guias HTTP/1.1[0m" 201 -

@@ -1,0 +1,5 @@
+$ curl -X POST http://127.0.0.1:3000/guias -H "Content-Type: application/json" -d '{"requisicaoId":"R-003","demorar":true}'
+{"message":"Internal server error"}
+
+HTTP 502 | tempo 4.222160s
+

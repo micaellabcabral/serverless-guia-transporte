@@ -1,0 +1,26 @@
+No current session found, using default AWS::AccountId
+Initializing the lambda functions containers.
+Local image is up-to-date
+Using local image: public.ecr.aws/lambda/python:3.12-rapid-x86_64.
+
+Mounting C:\Users\luisr\source\repos\mica\serverless-guia-transporte\.aws-sam\build\HelloWorldFunction as /var/task:ro,delegated, inside runtime container
+SAM_CONTAINER_ID: aac1d785f124837d6f01840d3068493e15f731f6e34bcce8889297d0e1bea17d
+Containers created. Waiting for readiness...
+Waiting for 1 containers to be running...
+All 1 containers running after 0.0 seconds
+All containers are ready.
+Mounting HelloWorldFunction at http://127.0.0.1:3000/guias [POST]
+You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. If you used sam build before running local commands, you will need to re-run sam build for the changes to be picked up. You only need to restart SAM CLI if you update your AWS SAM template
+2026-11-24 15:39:20 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2026-11-24 15:39:20 [33mPress CTRL+C to quit[0m
+Invoking app.lambda_handler (python3.12)
+Lambda function 'HelloWorldFunction' is already running
+START RequestId: ab336204-d38a-45bb-912d-a9e914b2a3ac Version: $LATEST
+Function 'HelloWorldFunction' timed out after 3 seconds
+24 Nov 2026 18:39:26,637 [ERROR] (rapid) Invoke failed error=errResetReceived InvokeID=ab336204-d38a-45bb-912d-a9e914b2a3ac
+END RequestId: ab336204-d38a-45bb-912d-a9e914b2a3ac
+REPORT RequestId: ab336204-d38a-45bb-912d-a9e914b2a3ac	Init Duration: 0.08 ms	Duration: 3000.00 ms	Billed Duration: 3000 ms	Memory Size: 128 MB	Max Memory Used: 128 MB	
+
+Invalid lambda response received: Lambda response must be valid json
+2026-11-24 15:39:26 127.0.0.1 - - [24/Nov/2026 15:39:26] "[35m[1mPOST /guias HTTP/1.1[0m" 502 -

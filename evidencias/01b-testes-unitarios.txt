@@ -1,0 +1,13 @@
+$ python -m pytest tests/unit -v
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\luisr\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\luisr\source\repos\mica\serverless-guia-transporte
+collecting ... collected 4 items
+
+tests/unit/test_handler.py::test_cria_guia_com_201 PASSED                [ 25%]
+tests/unit/test_handler.py::test_sem_requisicao_id_devolve_400 PASSED    [ 50%]
+tests/unit/test_handler.py::test_corpo_em_base64 PASSED                  [ 75%]
+tests/unit/test_handler.py::test_contador_cresce_no_mesmo_ambiente PASSED [100%]
+
+============================== 4 passed in 0.02s ==============================

@@ -1,0 +1,2 @@
+$ sam local generate-event apigateway aws-proxy --method POST --path guias --body '{...}' > events/pedido.json
+(evento gravado em events/pedido.json)

@@ -1,0 +1,15 @@
+$ sam local invoke -e events/pedido.json   # execução 1
+No current session found, using default AWS::AccountId
+Invoking app.lambda_handler (python3.12)
+Local image is out of date and will be updated to the latest runtime. To skip this, pass in the parameter --skip-pull-image
+Building image..........................................................................................................................................
+Using local image: public.ecr.aws/lambda/python:3.12-rapid-x86_64.
+
+Mounting C:\Users\luisr\source\repos\mica\serverless-guia-transporte\.aws-sam\build\HelloWorldFunction as /var/task:ro,delegated, inside runtime container
+SAM_CONTAINER_ID: d804b9692e220f788e87760acaa67edd51e532457f96a48b52465f0656d6f909
+START RequestId: 2db492b8-c363-46b6-9fe6-21ae5a391129 Version: $LATEST
+END RequestId: 2db492b8-c363-46b6-9fe6-21ae5a391129
+REPORT RequestId: 2db492b8-c363-46b6-9fe6-21ae5a391129	Init Duration: 0.09 ms	Duration: 105.42 ms	Billed Duration: 106 ms	Memory Size: 128 MB	Max Memory Used: 128 MB	
+{"statusCode": 201, "body": "{\"guia\": \"G-R-001\", \"hospital\": \"H-Recife\", \"bolsas\": [\"O-NEG-0142\"], \"invocacaoNesteAmbiente\": 1}"}
+
+tempo no relógio: 31.36 s
